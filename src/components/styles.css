@@ -1,0 +1,53 @@
+.pinkBackground {
+  background-color: pink;
+  height: 200px;
+  /* width: 800px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.textStyle {
+  display: flex;
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 1;
+  background-color: blue;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 2px 2px 8px gray;
+  width: 200px;
+  border-radius: 10px;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+}
+.toggleItem {
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.starsRow {
+  display: flex;
+  flex-direction: row;
+}
+.square {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1em;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
